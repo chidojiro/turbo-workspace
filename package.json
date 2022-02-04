@@ -7,7 +7,8 @@
     "init": "git submodule update --init",
     "pull": "git submodule update --recursive --remote",
     "headless": "yarn workspace hsk-headless",
-    "headful": "yarn workspace hsk-headful"
+    "headful": "yarn workspace hsk-headful",
+    "build": "turbo run build"
   },
   "workspaces": {
     "packages": [
@@ -19,5 +20,8 @@
     "url": "git+https://github.com/chidojiro/turbo-workspace.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.1.2"
+  }
 }

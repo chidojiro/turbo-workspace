@@ -4,3 +4,4 @@
 **/*.local
 **/yarn-error.log
 **/storybook-static
+**/.turbo
