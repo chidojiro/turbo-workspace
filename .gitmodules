@@ -1,0 +1,6 @@
+[submodule "packages/headless"]
+	path = packages/headless
+	url = git@github.com:chidojiro/hsk-headless.git
+[submodule "packages/headful"]
+	path = packages/headful
+	url = git@github.com:chidojiro/hsk-headful.git

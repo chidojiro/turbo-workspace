@@ -1,0 +1,23 @@
+{
+  "name": "turbo-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "init": "git submodule update --init",
+    "pull": "git submodule update --recursive --remote",
+    "headless": "yarn workspace hsk-headless",
+    "headful": "yarn workspace hsk-headful"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chidojiro/turbo-workspace.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
